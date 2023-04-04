@@ -1,4 +1,4 @@
-﻿version: 0.1
+version: 0.1
 phases:
     install:
         commands:
@@ -19,6 +19,6 @@ phases:
             - npm run build
 artifacts:
     files:
-        -"**/*"
+        - "**/*"
     discard-paths:  no
     base-directory:  build
